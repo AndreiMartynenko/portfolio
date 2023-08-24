@@ -60,7 +60,7 @@ a:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .logo:hover {
@@ -163,6 +163,7 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -285,6 +286,17 @@ section {
 
 .about-pic {
     border-radius: 2rem;
+    transform: scalex(-1);
+    
+}
+
+.my-pic {
+    border-radius: 250px;
+    object-fit:unset;
+    vertical-align: middle;
+    margin-right: 2px;
+    transform: scale(1.5);
+    
 }
 
 .arrow {
@@ -420,4 +432,16 @@ article .icon {
 .email-icon {
     height: 2.5rem;
 
+}
+
+/* FOOTER SECTION */
+
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }
