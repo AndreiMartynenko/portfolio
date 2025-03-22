@@ -1,7 +1,10 @@
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail } from "lucide-react";
+// import { Card, CardContent } from "@/components/ui/card";
+// import { Button } from "@/components/ui/button";
+// import { Github, Linkedin, Mail } from "lucide-react";
+const Card = ({ children }) => <div className="border rounded-lg shadow-md">{children}</div>;
+const CardContent = ({ children, className }) => <div className={className}>{children}</div>;
+const Button = ({ children, className }) => <button className={`bg-black text-white px-4 py-2 rounded ${className}`}>{children}</button>;
 
 export default function Home() {
   return (
