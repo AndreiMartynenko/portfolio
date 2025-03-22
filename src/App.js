@@ -1,7 +1,7 @@
 import React from "react";
 // import { Card, CardContent } from "@/components/ui/card";
 // import { Button } from "@/components/ui/button";
-// import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 const Card = ({ children }) => <div className="border rounded-lg shadow-md">{children}</div>;
 const CardContent = ({ children, className }) => <div className={className}>{children}</div>;
 const Button = ({ children, className }) => <button className={`bg-black text-white px-4 py-2 rounded ${className}`}>{children}</button>;
@@ -15,10 +15,10 @@ export default function Home() {
         <p className="text-lg text-gray-600">Blockchain & Golang Engineer</p>
         <p className="text-sm text-gray-400 mt-1">Building DeFi trading bots, blockchains, and AI-powered Web3 tools</p>
         <div className="flex justify-center gap-4 mt-4">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/AndreiMartynenko" target="_blank" rel="noopener noreferrer">
             <Github />
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/andrei-m-737512154/" target="_blank" rel="noopener noreferrer">
             <Linkedin />
           </a>
           <a href="mailto:andreimartynenko@outlook.com">
@@ -44,10 +44,10 @@ export default function Home() {
               </ul>
               <div className="mt-4 flex gap-3">
                 <Button variant="outline" asChild>
-                  <a href="https://github.com/AndreiMartynenko/tendo-chain" target="_blank">GitHub</a>
+                  <a href="https://github.com/AndreiMartynenko/tendo-chain" target="_blank" rel="noreferrer">GitHub</a>
                 </Button>
                 <Button asChild>
-                  <a href="https://sepolia.etherscan.io/address/0xb4A460b480c9CF3C0825798e8d5Fb55D84c244F1" target="_blank">Live Demo</a>
+                  <a href="https://sepolia.etherscan.io/address/0xb4A460b480c9CF3C0825798e8d5Fb55D84c244F1" target="_blank" rel="noreferrer">Live Demo</a>
                 </Button>
               </div>
             </CardContent>
@@ -66,10 +66,10 @@ export default function Home() {
               </ul>
               <div className="mt-4 flex gap-3">
                 <Button variant="outline" asChild>
-                  <a href="https://github.com/AndreiMartynenko/dextraderx" target="_blank">GitHub</a>
+                  <a href="https://github.com/AndreiMartynenko/dex-trader-x" target="_blank" rel="noreferrer">GitHub</a>
                 </Button>
                 <Button asChild>
-                  <a href="https://dextrading.com" target="_blank">Live Demo</a>
+                  <a href="https://dextrading.com" target="_blank" rel="noreferrer">Live Demo</a>
                 </Button>
               </div>
             </CardContent>
